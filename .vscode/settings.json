@@ -1,0 +1,9 @@
+{
+    "yaml.validate": true,
+    "yaml.schemas": {
+        "./easyops/schema/brick.json":     "./easyops/brick/*/*.yaml",
+        "./easyops/schema/interface.json": "./easyops/api/*/*/*.yaml",
+        "./easyops/schema/type.json":      "./easyops/type/*.yaml",
+        "./easyops/schema/model.json":      "./easyops/model/*/*.yaml"
+      }
+}
